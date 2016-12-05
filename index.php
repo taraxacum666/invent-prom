@@ -48,9 +48,13 @@
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
 		      <img src="img/slider_1.png" alt="Chania">
-		      <p>Good</p>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, velit quod aperiam cupiditate maxime, aut labore, esse nostrum tempora perferendis dignissimos perspiciatis tenetur aliquid at illo saepe, in fugit repellat.</p>
-		      <input type="button">
+		      <div class="slider-caption">
+			      <div>
+				      <p>Good</p>
+				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, velit quod aperiam cupiditate maxime, aut labore, esse nostrum tempora perferendis dignissimos perspiciatis tenetur aliquid at illo saepe, in fugit repellat.</p>
+				      <input type="button">
+			      </div>
+		      </div>
 		    </div>
 
 		    <div class="item">

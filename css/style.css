@@ -33,18 +33,23 @@
 .carousel-inner{
 	padding: 0;
 	margin: 0;
-  display: flex;
+/*  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 .carousel-indicators{
 	float: right;
 	left: 999px;
 }
-.item img{
-
-}
-.item p{
-	/*position: relative;*/
+.slider-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
