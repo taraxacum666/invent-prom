@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0 auto;
+	width: 1280px;
+}
+.nav-pills{
+	float: left;
+}
+.header{
+	height: 89px;
+	padding-top: 20px;
+}
+.header img{
+	width: 236px;
+	float: left;
+	margin-left: 102px;
+	margin-right: 157px;
+}
+#header-search{
+	width: 170px;
+	float: right;
+}
+.slider {
+	padding: 0;
+	width: 1280px;
+	height: 491px;
+	background: gray;
+
+}
+.carousel-inner{
+	padding: 0;
+	margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-indicators{
+	float: right;
+	left: 999px;
+}
+.item img{
+
+}
+.item p{
+	/*position: relative;*/
+}
