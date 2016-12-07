@@ -85,25 +85,27 @@
     		<div class="ourbutton">
     			<p>Популярные товары</p>
     		</div>
-    		<div class="preim">
-    			<img src="#" alt="">
-    			<p id="header_preim"></p>
-    			<p id="text_preim"></p>
-    		</div>
-    		<div class="preim">
-    			<img src="#" alt="">
-    			<p id="header_preim"></p>
-    			<p id="text_preim"></p>
-    		</div>
-    		<div class="preim">
-    			<img src="#" alt="">
-    			<p id="header_preim"></p>
-    			<p id="text_preim"></p>
-    		</div>
-    		<div class="preim">
-    			<img src="#" alt="">
-    			<p id="header_preim"></p>
-    			<p id="text_preim"></p>
+    		<div class="row">
+	    		<div class="col-md-4 preim">
+	    			<img src="img/top1.png" alt="">
+	    			<p id="header_preim">ручка</p>
+	    			<p id="text_preim">лучшая ручка</p>
+	    		</div>
+	    		<div class="col-md-4 preim">
+	    			<img src="img/top2.png" alt="">
+	    			<p id="header_preim">ручка</p>
+	    			<p id="text_preim">лучшая ручка</p>
+	    		</div>
+	    		<div class="col-md-4 preim">
+	    			<img src="img/top3.png" alt="">
+	    			<p id="header_preim">ручка</p>
+	    			<p id="text_preim">лучшая ручка</p>
+	    		</div>
+	    		<div class="col-md-4 preim">
+	    			<img src="img/top4.png" alt="">
+	    			<p id="header_preim">ручка</p>
+	    			<p id="text_preim">лучшая ручка</p>
+	    		</div>
     		</div>
     	</div>
     	<div class="ourtop3">

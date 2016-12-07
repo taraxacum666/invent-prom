@@ -1,5 +1,5 @@
 *{
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 .container{
@@ -69,18 +69,35 @@
 }
 .ourPreimn{
 	height: 300px;
-	margin-top: -20px;
+	width: 1280px;
+	
 }
+
 .ourbutton{
 	margin: 0 auto;
 /*	z-index: auto;
 	margin-top: -20px;*/
+	margin-top: -20px;
+	position: relative;
+	padding-top: 8px;
+	text-align: center;
 	width: 146px;
 	height: 35px;
 	background-image: url(../img/ourbtn.png);
 
 }
 .preim{
-	float: left;
-	width: 200px;
+	width: 300px;
+	height: 300px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.preim img{
+	margin-left: 8px;
+	margin-top: 20px;
+}
+.preim p{
+	text-align: center;
+	margin-top: 20px;
 }
