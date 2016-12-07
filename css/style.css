@@ -28,7 +28,7 @@
 	width: 1280px;
 	height: 491px;
 	background: gray;
-
+	
 }
 .carousel-inner{
 	padding: 0;
@@ -43,13 +43,44 @@
 	left: 999px;
 }
 .slider-caption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+#caption-head{
+	font-family: BebasNeue;
+	color:  #cccece;
+	font-size: 60px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+}
+.btn-slider{
+	width: 200px;
+	height: 30px;
+	background-color: orange;
+}
+.ourPreimn{
+	height: 300px;
+	margin-top: -20px;
+}
+.ourbutton{
+	margin: 0 auto;
+/*	z-index: auto;
+	margin-top: -20px;*/
+	width: 146px;
+	height: 35px;
+	background-image: url(../img/ourbtn.png);
+
+}
+.preim{
+	float: left;
+	width: 200px;
 }

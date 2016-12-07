@@ -41,34 +41,33 @@
 		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#myCarousel" data-slide-to="1"></li>
 		    <li data-target="#myCarousel" data-slide-to="2"></li>
-		    <li data-target="#myCarousel" data-slide-to="3"></li>
 		  </ol>
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="img/slider_1.png" alt="Chania">
-		      <div class="slider-caption">
-			      <div>
-				      <p>Good</p>
-				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, velit quod aperiam cupiditate maxime, aut labore, esse nostrum tempora perferendis dignissimos perspiciatis tenetur aliquid at illo saepe, in fugit repellat.</p>
-				      <input type="button">
-			      </div>
-		      </div>
+		      <img src="img/slider.jpg" alt="Chania">
+		      <!-- <div class="slider-caption">
+		      			      <div>
+		      				      <p id="captin-head">Good</p>
+		      				      <p id ="caption-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, velit quod aperiam cupiditate maxime, aut labore, esse nostrum tempora perferendis dignissimos perspiciatis tenetur aliquid at illo saepe, in fugit repellat.</p>
+		      					<button type="button" class="btn btn-default btn-slider">Left</button>
+		      			      </div>
+		      </div> -->
 		    </div>
 
 		    <div class="item">
-		      <img src="img_chania2.jpg" alt="Chania">
+		      <img src="img/slider1.jpg" alt="Chania">
 		    </div>
 
 		    <div class="item">
-		      <img src="img_flower.jpg" alt="Flower">
+		      <img src="img/slider2.jpg" alt="Flower">
 		    </div>
 
-		    <div class="item">
-		      <img src="img_flower2.jpg" alt="Flower">
-		    </div>
-		  </div>
+<!-- 		    <div class="item">
+  <img src="img_flower2.jpg" alt="Flower">
+</div>
+		  </div> -->
 
 		  <!-- Left and right controls -->
 		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -81,8 +80,31 @@
 		  </a>
 		</div>	
     </div>
-    	<div class="ourPreimn">
-    		
+    </div>
+    	<div class="container ourPreimn">
+    		<div class="ourbutton">
+    			<p>Популярные товары</p>
+    		</div>
+    		<div class="preim">
+    			<img src="#" alt="">
+    			<p id="header_preim"></p>
+    			<p id="text_preim"></p>
+    		</div>
+    		<div class="preim">
+    			<img src="#" alt="">
+    			<p id="header_preim"></p>
+    			<p id="text_preim"></p>
+    		</div>
+    		<div class="preim">
+    			<img src="#" alt="">
+    			<p id="header_preim"></p>
+    			<p id="text_preim"></p>
+    		</div>
+    		<div class="preim">
+    			<img src="#" alt="">
+    			<p id="header_preim"></p>
+    			<p id="text_preim"></p>
+    		</div>
     	</div>
     	<div class="ourtop3">
     		
